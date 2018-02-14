@@ -1,6 +1,6 @@
 <%-- 
     Document   : updateAvatarH
-    Created on : 10 févr. 2018, 12:05:13
+    Created on : 10 fï¿½vr. 2018, 12:05:13
     Author     : user
 --%>
 
@@ -36,6 +36,6 @@
         e.getMessage();
     }
     if(request.getParameter("web")!=null){
-        response.sendRedirect("http://localhost:8084/Minibrofrontoffice0/GestionAvatar.jsp");
+        response.sendRedirect("https://mysterious-crag-76098.herokuapp.com/GestionAvatar.jsp");
     }
 %>

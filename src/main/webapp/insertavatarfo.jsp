@@ -1,6 +1,6 @@
 <%-- 
     Document   : insertavatar
-    Created on : 9 févr. 2018, 02:39:25
+    Created on : 9 fï¿½vr. 2018, 02:39:25
     Author     : user
 --%>
 
@@ -43,5 +43,5 @@
         e.getMessage();
     }
     
-    response.sendRedirect("http://localhost:8084/Minibrofrontoffice0/MenuAvatar.jsp");
+    response.sendRedirect("https://mysterious-crag-76098.herokuapp.com/MenuAvatar.jsp");
 %>
