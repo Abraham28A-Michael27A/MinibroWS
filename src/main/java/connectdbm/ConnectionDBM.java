@@ -21,8 +21,8 @@ import com.mongodb.QueryBuilder;
  */
 public class ConnectionDBM {
     public DB getcon() throws Exception{
-        MongoClient mongo = new MongoClient("localhost", 27017);
-        //MongoClient mongo = new MongoClient(new MongoClientURI("mongodb://root:root@ds127888.mlab.com:27888/minidb"));
+        //MongoClient mongo = new MongoClient("localhost", 27017);
+        MongoClient mongo = new MongoClient(new MongoClientURI("mongodb://root:root@ds127888.mlab.com:27888/minidb"));
 	DB db = mongo.getDB("minidb");
         //DB db = mongo.getDB(new MongoClientURI("mongodb://root:root@ds127888.mlab.com:27888/minidb").getDatabase());
         return db;
